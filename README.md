@@ -31,7 +31,7 @@ This project demonstrates that Naive Bayes (GaussianNB) maintains stable fraud r
 - **Target:** CLASS (0: normal, 1: fraud) – highly imbalanced  
 - **Features:** Numeric transaction features with correlations  
 - **Load query:**  
-```sql
+
 SELECT * FROM "CREDITFRAUD";​
 
 ## **Features**
