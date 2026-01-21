@@ -50,7 +50,7 @@ SELECT * FROM "CREDITFRAUD";​
 - Varying training fractions (0.1–0.9) for NB vs LR recall comparison
 
 
-**## Analysis**
+##**Analysis**
 
 - **Violation test:** Heatmap shows correlations breaking Naive Bayes assumption  
 - **Small data experiment:** NB fraud recall stays stable as data grows; LR favors majority class  
@@ -58,14 +58,14 @@ SELECT * FROM "CREDITFRAUD";​
 
 
 
-**## Results**
+##**Results**
 
 - Naive Bayes captures fraud patterns probabilistically despite assumptions, outperforming in imbalance without heavy tuning  
 - Discriminative models (Logistic Regression, KNN) need more data or tuning  
 
 
 
-**## Installation**
+##**Installation**
 
 Clone the repo:
 
